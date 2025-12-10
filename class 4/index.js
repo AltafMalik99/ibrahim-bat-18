@@ -29,7 +29,7 @@
 
 // var student = ["ahmed", "ali" , "anas" , "bilal" , "jawed"]
 
-// student[5] = "noor"
+//  student[4] = "noor"
 // console.log (student)
 
 
@@ -121,17 +121,20 @@
 // ...unshift...
 
 // var arr = [1,2,3,4,5]
-// arr.push(6)
-// arr.unshift(0)
-// console.log(arr);    // add a start 
+// arr.push(6)    //add a last
+// arr.unshift(2)     // add a start 
+// console.log(arr); 
 
 
-
+ 
 // // ...shift...
 
 // var arr = [1,2,3,4]
 // arr.shift ()
-// arr.shift()      // remove  in first
+// arr.shift()   
+// arr.shift()  
+// arr.unshift(4)
+// arr.push(2)
 // console.log(arr);
 
 
@@ -148,8 +151,8 @@
 // ..splice....
 
 // var arr = [1,2,3,4,5]
-// console.log( arr.splice(1,5 ,"a" ));
-// // console.log( arr)
+// console.log( arr.splice(0,6 ,"a" ));
+// console.log( arr)
 
 // // 0 means index , 1 means how many elements will remove (quantity)
 
@@ -159,9 +162,23 @@
 
 // lakin is ma jo element remove ho gya wo console ma show nhi ho gye
 // var arr = [10,20,30 ,40,50]
-// arr.splice(1,4)
+// arr.splice(1,3)
 // console.log(arr)
 
+
+
+// var arr = [1,2,3,4,5,6]
+// console.log(arr.splice(2,5))
+// console.log(arr.length)
+
+
+
+
+
+// is ma ap kahae be value add kar sagta ha
+// var arr = ["apple","banana","mango"]
+// arr.splice(1,0 , "Ahmed raza khan sb ")
+// console.log(arr);
 
 
 // slice....
@@ -177,6 +194,11 @@
 
 
 
+
+// var arr = ["a", "b","c","d","e","f"]
+// console.log(arr.slice(1,5))
+
+
 //  var arr = ["a", "b",,]
 //  console.log(arr.indexOf("d")); // -1 means no value includes
 //  console.log(arr.includes("al"))  // includes return boolean
@@ -189,6 +211,9 @@
 // var myName = "Altaf"
 // console.log(myName.indexOf ("l"));
 // console.log(myName.includes ("a"));   // ya ma jo value ha wo value lakhe gye to true a gye agar koi or value jo is ma nhi ha false ay gye
+
+
+
 
 
 
