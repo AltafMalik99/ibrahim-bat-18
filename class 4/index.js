@@ -239,11 +239,24 @@
 
  
 
+
+//  var arr = ["a" ,"b" ,"c" ,"d"]
+// var newArr = ["malik", "altaf",...arr ]   // spread operator
+// console.log(newArr);
+
+
+
+// var arr = ["a","b","c","d","e"]
+// var newArr = [...arr, "f","malik"]
+// console.log(newArr);
+
+
+
 /*Iska kaam hota hai array ya object ko spread (phaila) dena, yani unke andar ki values ko separate kar den ya hamesha teen dot se show kar ti hai */
 
 
 // let a = [10, 20, 30];
-// let b = [...a , 40];
+// let b = [...a , 40,50];
 
 // console.log(b);
 
@@ -253,8 +266,8 @@
 
 // var x = [1,2];
 // var y = [3,4]
-
-// var z = [...x, ...y];
+// var a = [5,6]
+// var z = [...x, ...y ,...a];
 // console.log(z);
 
 
@@ -263,6 +276,34 @@
 // var obj1 = { name:"Ali", age :20};
 // var obj2 = {...obj1 , city :"karachi"};
 // console.log(obj2);
+
+
+// var obj1 = {nmae:"noor" , age :20};
+// var obj2 = {...obj1 , city : "lahor"}
+// console.log(obj2)
+
+
+var obj1 = {name}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -324,4 +365,4 @@
 // console.log(twoDArray[2][3][2][0])
 
 
-// chapter 13 and 14 not read
+// chapter 13 and 14 not read 
