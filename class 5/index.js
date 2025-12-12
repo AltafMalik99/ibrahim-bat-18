@@ -23,4 +23,21 @@
 // console.log (today[2][3][2][0])
 
 
-// vavr arr1 = [1,2,3,4,]
+
+// assignments
+// var arr1 = [[1,2,3,4,],[4,5,6],[7,8,9]]
+// var arr2 =  [[9,8,7], [6,5,4], [3,2,1]]
+
+// var result = arr1 + arr2 
+// console.log(result [0][0][0]);
+
+
+
+
+
+// ......chapter..18...for loop........
+
+// what is for loop 
+/* for loop ek aisa loop hai jo code ko bar bar repeat karne ke liye use
+use oti ha jab tak koi condtion true ho */
+
