@@ -4,6 +4,7 @@
 // value are storedin square brackets []
 // each vslue an index string from 0 number 
 
+   
 
 
 // var student = ["ahmed", "ali" , "anas" , "bilal" , "jawed"]
