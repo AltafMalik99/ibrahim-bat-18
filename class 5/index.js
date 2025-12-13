@@ -41,3 +41,18 @@
 /* for loop ek aisa loop hai jo code ko bar bar repeat karne ke liye use
 use oti ha jab tak koi condtion true ho */
 
+
+// for(var i=0;i<10;i++){
+//     console.log("hello world");
+    
+// }
+
+// for(var i=0;i<5;i++){
+//     console.log("hello word"+i);
+    
+// }
+
+
+// ensalzation , condation ,increment ya decrment deti ha for ka ander
+
+// sir ibrahim 40,10 sir muzammil 41
