@@ -322,4 +322,3 @@ inner loop poor complete hoti ha */
 
 
 
-// video 11
