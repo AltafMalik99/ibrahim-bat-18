@@ -35,4 +35,5 @@
 //     } 
     
 
-    var cityName
+
+    var cityName = prompt
