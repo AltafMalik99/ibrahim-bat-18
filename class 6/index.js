@@ -1,2 +1,38 @@
-var name = "noor"
-console.log(name);
+// var myName = prompt ("enter your name")
+
+// var myNameLenght = myName.length;
+// if(myNameLenght > 3){
+//     var result = myName.slice(0,3);
+//     console.log("result=>", result);
+//     console.log(typeof result)
+// }
+
+
+
+// var cityName = prompt("enter a text")
+
+// if (cityName.includes("  ")){
+//     console.log("hey, double space not allowed");
+    
+// } else{
+//     console.log("no double space")
+// }
+
+
+
+
+
+// var cityName = prompt ("enter a text");
+// var cityNames =  cityName.length;
+
+// for (i = 0; i < cityNames; i++){
+//     if( cityName.slice(i, i+2)==="  ") {
+//         console.log("hey , double space not allow");
+//         break
+//     } else {
+//         console.log("there is no space try again")
+//     }
+//     } 
+    
+
+    
