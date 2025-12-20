@@ -36,4 +36,41 @@
     
 
 
-    var cityName = prompt
+
+// var cityName = prompt ("enter a text")
+// var cityLenght = cityName.length;
+
+// for(var i = 0 ; i < cityLenght; i ++){
+
+//     if(cityName.slice(i,i + 2) === "  " ){
+//         console.log("Double space not allowed")
+//         break
+//      }
+// }
+
+
+
+//..... chapter 23, strings finding segments......
+
+
+// var cityName = "this is word war 2 story of the world";
+// var cityNames = cityName.length;
+
+// for (i = 0 ; i <cityNames; i++){
+//     if(cityName.slice(i, i + 12) === "word war 2" ){
+//         cityName = 
+//         cityName.slice(0, i) + "this scond world war 22" + cityName.slice(i, i + 12);
+//         console.log("cityName =>", cityName)
+//     }
+// }
+
+var cityName = "this is word war 2 story of the world";
+
+for (var i = 0; i < cityName.length; i++) {
+    if (cityName.slice(i, i + 12) === "word war 2") {
+        cityName = cityName.slice(0, i) + "second world war 22" + cityName.slice(i + 12);
+        break; // match mil gaya, loop ko stop karo
+    }
+}
+
+console.log(cityName);
