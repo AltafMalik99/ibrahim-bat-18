@@ -1,11 +1,39 @@
 // var myName = prompt ("enter your name")
 
 // var myNameLenght = myName.length;
-// if(myNameLenght > 3){
-//     var result = myName.slice(0,3);
+// if(myNameLenght > 2){
+//     var result = myName.slice(0,2);
 //     console.log("result=>", result);
-//     console.log(typeof result)
+//     // console.log(typeof result)
 // }
+
+
+
+
+
+
+
+// var myName = prompt ("enter a number")
+
+// var myNameLenght = myName.length;
+
+// if(myNameLenght > 2){
+    //     var  result  = myName.slice(0,2)
+    //     console.log(result)
+    // }
+    
+    
+    
+    
+    
+    // var names = prompt ("enter a number")
+    
+    // var name1 = names.length;
+    
+    // if(name1 > 3){
+    //     var name2 = names.slice(0,2)
+    //     console.log(name2)
+    // }
 
 
 
@@ -13,7 +41,7 @@
 
 // if (cityName.includes("  ")){
 //     console.log("hey, double space not allowed");
-    
+
 // } else{
 //     console.log("no double space")
 // }
@@ -32,8 +60,23 @@
 //     } else {
 //         console.log("there is no space try again")
 //     }
-//     } 
-    
+//     }
+
+
+
+
+// var cityName = prompt ("enter a text")
+// var cityNames = cityName.length
+
+// for (i = 0; i < cityNames; i ++){
+//     if( cityName.slice(i, i+2) ==="  "){
+//         console.log("hey , double space not allowed")
+//         break
+//     }else{
+//         console.log("therr is no space try again")
+//     }
+// }
+
 
 
 
@@ -46,7 +89,30 @@
 //         console.log("Double space not allowed")
 //         break
 //      }
+
 // }
+
+
+
+// var cityName = prompt ("enter a text")
+
+// var cityNames = cityName.length
+
+// for (var i = 0 ; i <cityNames ; i ++ ){
+//     if(cityName.slice(i, i+2)=== "  "){
+//         console.log("bouble space ");
+//         break
+//     }else{
+//         console.log("single space")
+//     }
+// }
+
+
+
+
+
+
+
 
 
 
@@ -72,7 +138,8 @@
 // var text = ("this a world war 2 stor")
 // console.log(text.includes("war 2 "));
 
-// sarif yes / no batata hai
+
+// sarif yes / no batata hai ka is ma jo ap console ap ma value call kare rha ha ho wo ha ya nhi
 
 
 
@@ -81,7 +148,7 @@
 // var text = ("this a world war 2 stor")
 // console.log(text.slice(3,22));
 // console.log(text.length)
-
+// kaha se kaha tak ka element ko dakana ha 
 
 
 // charAt..
@@ -89,6 +156,8 @@
 // var text = ("this a world war 2 stor")
 // console.log(text.charAt(5));
 
+// var text = "this is a apple"
+// console.log(text.charAt(11))
 
 
 // match..
@@ -98,33 +167,33 @@
 
 
 
-
 // replace
 
-// var text = "this a world war 2 stor";
+// var text = "this a world war 2 store";
 
-// text = text.replace("world war 2", "Second World War");
+// text = text.replace("this a world war 2", " Second World War");
 
 // console.log(text);
+
+// is ma jo value add kar na ha or jo remove kar ne ha or is ma ap value add be kare sagta ho
 
 //  srif pehli baar replace
 
 
 
 
+// replaceAll
 
-// replaceAll 
+// var text = " this is a apple";
 
-// var text = "hello  hello";
-
-// text = text.replaceAll("hello", "hi");
+// text = text.replaceAll("a "," and banana ");
 
 // console.log(text);
 
 // jitni baar hello aayega sab replace ho jayega hi se
 
 
-
+// .........
 
 // var text = "hello hello hello";
 
@@ -156,7 +225,7 @@
 
 // for (i = 0 ; i <cityNames; i++){
 //     if(cityName.slice(i, i + 12) === "word war 2" ){
-//         cityName = 
+//         cityName =
 //         cityName.slice(0, i) + "this scond world war 22" + cityName.slice(i, i + 12);
 //         console.log("cityName =>", cityName)
 //     }
@@ -206,7 +275,7 @@
 // if(names == "al") {
 //     var upper = names.toUpperCaes();
 //     console.log(upper, "found");
-    
+
 // }else{
 //     console.log("not found")
 // }
@@ -218,8 +287,26 @@
 // if(names=="A") {
 //     var upper = names.toUpperCase();
 //     console.log(upper,"found");
-    
+
 // }
 // else{
 //     console.log("not found")
 // }
+
+// var city = "!pakistan";
+
+// for (i = 1; i < city.length; i++) {
+//     if (city.charAt(0)) {
+//         console.log(i)
+//     }
+// }
+
+// var result = city.charAt()
+// console.log(result);
+
+
+
+
+// var result = city.charAt()
+// console.log(result);
+// 3
