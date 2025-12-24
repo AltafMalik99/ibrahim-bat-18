@@ -21,15 +21,15 @@
     //     var  result  = myName.slice(0,2)
     //     console.log(result)
     // }
-    
-    
-    
-    
-    
+
+
+
+
+
     // var names = prompt ("enter a number")
-    
+
     // var name1 = names.length;
-    
+
     // if(name1 > 3){
     //     var name2 = names.slice(0,2)
     //     console.log(name2)
@@ -148,7 +148,7 @@
 // var text = ("this a world war 2 stor")
 // console.log(text.slice(3,22));
 // console.log(text.length)
-// kaha se kaha tak ka element ko dakana ha 
+// kaha se kaha tak ka element ko dakana ha
 
 
 // charAt..
@@ -221,19 +221,6 @@
 
 
 
-
-
-// var cityName = "this is word war 2 story of the world";
-// var cityNames = cityName.length;
-
-// for (i = 0 ; i <cityNames; i++){
-//     if(cityName.slice(i, i + 12) === "word war 2" ){
-//         cityName =
-//         cityName.slice(0, i) + "this scond world war 22" + cityName.slice(i, i + 12);
-//         console.log("cityName =>", cityName)
-//     }
-// }
-
 // var cityName = "this is word war 2 story of the world";
 
 // for (var i = 0; i < cityName.length; i++) {
@@ -242,8 +229,10 @@
 //         break; // match mil gaya, loop ko stop karo
 //     }
 // }
-
 // console.log(cityName);
+
+
+
 
 
 
