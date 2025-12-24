@@ -242,30 +242,44 @@
 // var cityName = prompt ("enter a text")
 // var cityName = "this is word war 2 store of the world"
 
-// cityName = cityName.replace("word war 2 ","second world war 22 ")
+// cityName = cityName.replace(" word war 2 store "," second world war 22 ")
 
 // console.log(cityName);
+
+
+
+/* Variable Update: Pehli line mein prompt liya gaya hai, lekin doosri line mein cityName ko dobara set kar diya gaya hai, isliye ab uski value "this is word war 2 store of the world" ho gayi hai.
+Replace Function: cityName.replace("word war 2 ", " second world war 22 ") ka matlab hai ke string mein jahan "word war 2 " likha hai, usay badal kar " second world war 22 " kar do.
+Output: Jab aap console.log karenge, to result yeh aayega: "this is second world war 22 store of the world". */
 
 
 // replace.....
 
 // var text = "I love apple";
 
-// text = text.replace("apple", "banana");
+// text = text.replace("apple", "banana ");
 
 // console.log(text);
 
 
 
 
+// var text = "apple apple apple"; 
+// var result = text.replaceAll("apple , mango")
+// console.log(result);
+
+//  replaceAll ka kaam string ke andar kisi bhi khaas lafz (word) ya character ko har jagah se dhoond kar badalna hai.
+
+
+
 // chapter 24, strings finding characters at a location .......
 
 
-// var name = "alt";
-// var names = name.charAt(name.lenght - 1);
+// var name = "malik";
+// var names = name.charAt(name.length - 1);
 
-// if(names == "al") {
-//     var upper = names.toUpperCaes();
+// if(names == "k") {
+//     var upper = names.toUpperCase();
 //     console.log(upper, "found");
 
 // }else{
@@ -273,10 +287,19 @@
 // }
 
 
+
+// var name = "malik"
+// var names = name.charAt(name.length - 1)
+//     if(names == "k"){
+//         var upper = names.toUpperCase();
+//         console.log(upper , "found")
+//     }
+
+
 // var name = "alt";
 // var names = name.charAt(0);
 
-// if(names=="A") {
+// if(names == "a") {
 //     var upper = names.toUpperCase();
 //     console.log(upper,"found");
 
@@ -284,6 +307,15 @@
 // else{
 //     console.log("not found")
 // }
+
+
+// var name = "Altaf"
+
+// var fist = name.charAt(0).toUpperCase();
+// console.log(fist)
+
+
+
 
 // var city = "!pakistan";
 
@@ -293,8 +325,9 @@
 //     }
 // }
 
-// var result = city.charAt()
-// console.log(result);
+// var result = "malik altfa"
+// //  var city = result.charAt()
+// console.log(result.charAt(8));
 
 
 
